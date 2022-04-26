@@ -1,0 +1,16 @@
+D:\documents\git\Media_Player\MediaPlayer\bin\Debug\netcoreapp3.1\MediaPlayer.exe
+D:\documents\git\Media_Player\MediaPlayer\bin\Debug\netcoreapp3.1\MediaPlayer.deps.json
+D:\documents\git\Media_Player\MediaPlayer\bin\Debug\netcoreapp3.1\MediaPlayer.runtimeconfig.json
+D:\documents\git\Media_Player\MediaPlayer\bin\Debug\netcoreapp3.1\MediaPlayer.runtimeconfig.dev.json
+D:\documents\git\Media_Player\MediaPlayer\bin\Debug\netcoreapp3.1\MediaPlayer.dll
+D:\documents\git\Media_Player\MediaPlayer\bin\Debug\netcoreapp3.1\MediaPlayer.pdb
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.csproj.AssemblyReference.cache
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.Form1.resources
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.csproj.GenerateResource.cache
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.AssemblyInfoInputs.cache
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.AssemblyInfo.cs
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.csproj.CoreCompileInputs.cache
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.dll
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.pdb
+D:\documents\git\Media_Player\MediaPlayer\obj\Debug\netcoreapp3.1\MediaPlayer.genruntimeconfig.cache
