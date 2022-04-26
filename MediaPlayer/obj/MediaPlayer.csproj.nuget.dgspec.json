@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\documents\\git\\MediaPlayer\\MediaPlayer\\MediaPlayer.csproj": {}
+    "D:\\documents\\git\\Media_Player\\MediaPlayer\\MediaPlayer.csproj": {}
   },
   "projects": {
-    "D:\\documents\\git\\MediaPlayer\\MediaPlayer\\MediaPlayer.csproj": {
+    "D:\\documents\\git\\Media_Player\\MediaPlayer\\MediaPlayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\documents\\git\\MediaPlayer\\MediaPlayer\\MediaPlayer.csproj",
+        "projectUniqueName": "D:\\documents\\git\\Media_Player\\MediaPlayer\\MediaPlayer.csproj",
         "projectName": "MediaPlayer",
-        "projectPath": "D:\\documents\\git\\MediaPlayer\\MediaPlayer\\MediaPlayer.csproj",
+        "projectPath": "D:\\documents\\git\\Media_Player\\MediaPlayer\\MediaPlayer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\documents\\git\\MediaPlayer\\MediaPlayer\\obj\\",
+        "outputPath": "D:\\documents\\git\\Media_Player\\MediaPlayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
