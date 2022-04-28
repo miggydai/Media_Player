@@ -1,0 +1,10 @@
+D:\documents\MusicPlayer2\MusicPlayer2\bin\Debug\MusicPlayer2.exe.config
+D:\documents\MusicPlayer2\MusicPlayer2\bin\Debug\MusicPlayer2.exe
+D:\documents\MusicPlayer2\MusicPlayer2\bin\Debug\MusicPlayer2.pdb
+D:\documents\MusicPlayer2\MusicPlayer2\obj\Debug\MusicPlayer2.csproj.AssemblyReference.cache
+D:\documents\MusicPlayer2\MusicPlayer2\obj\Debug\MusicPlayer2.Form1.resources
+D:\documents\MusicPlayer2\MusicPlayer2\obj\Debug\MusicPlayer2.Properties.Resources.resources
+D:\documents\MusicPlayer2\MusicPlayer2\obj\Debug\MusicPlayer2.csproj.GenerateResource.cache
+D:\documents\MusicPlayer2\MusicPlayer2\obj\Debug\MusicPlayer2.csproj.CoreCompileInputs.cache
+D:\documents\MusicPlayer2\MusicPlayer2\obj\Debug\MusicPlayer2.exe
+D:\documents\MusicPlayer2\MusicPlayer2\obj\Debug\MusicPlayer2.pdb
