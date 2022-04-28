@@ -30,31 +30,31 @@ namespace MediaPlayer
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.HelpSubMenu = new System.Windows.Forms.Panel();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.Help = new System.Windows.Forms.Button();
+            this.ToolsSubMenu = new System.Windows.Forms.Panel();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.Tools = new System.Windows.Forms.Button();
+            this.AlbumSubMenu = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.Album = new System.Windows.Forms.Button();
+            this.PlaySubMeny = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.Playlist = new System.Windows.Forms.Button();
+            this.MediaSubMenu = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -63,11 +63,11 @@ namespace MediaPlayer
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.HelpSubMenu.SuspendLayout();
+            this.ToolsSubMenu.SuspendLayout();
+            this.AlbumSubMenu.SuspendLayout();
+            this.PlaySubMeny.SuspendLayout();
+            this.MediaSubMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,35 +75,35 @@ namespace MediaPlayer
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
-            this.panel1.Controls.Add(this.panel6);
-            this.panel1.Controls.Add(this.button20);
-            this.panel1.Controls.Add(this.panel5);
-            this.panel1.Controls.Add(this.button15);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.button10);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.HelpSubMenu);
+            this.panel1.Controls.Add(this.Help);
+            this.panel1.Controls.Add(this.ToolsSubMenu);
+            this.panel1.Controls.Add(this.Tools);
+            this.panel1.Controls.Add(this.AlbumSubMenu);
+            this.panel1.Controls.Add(this.Album);
+            this.panel1.Controls.Add(this.PlaySubMeny);
+            this.panel1.Controls.Add(this.Playlist);
+            this.panel1.Controls.Add(this.MediaSubMenu);
             this.panel1.Controls.Add(this.Media);
             this.panel1.Controls.Add(this.panelLogo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 561);
+            this.panel1.Size = new System.Drawing.Size(220, 561);
             this.panel1.TabIndex = 0;
             // 
-            // panel6
+            // HelpSubMenu
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panel6.Controls.Add(this.button21);
-            this.panel6.Controls.Add(this.button22);
-            this.panel6.Controls.Add(this.button23);
-            this.panel6.Controls.Add(this.button24);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 697);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(183, 94);
-            this.panel6.TabIndex = 10;
+            this.HelpSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.HelpSubMenu.Controls.Add(this.button21);
+            this.HelpSubMenu.Controls.Add(this.button22);
+            this.HelpSubMenu.Controls.Add(this.button23);
+            this.HelpSubMenu.Controls.Add(this.button24);
+            this.HelpSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.HelpSubMenu.Location = new System.Drawing.Point(0, 697);
+            this.HelpSubMenu.Name = "HelpSubMenu";
+            this.HelpSubMenu.Size = new System.Drawing.Size(203, 94);
+            this.HelpSubMenu.TabIndex = 10;
             // 
             // button21
             // 
@@ -115,7 +115,7 @@ namespace MediaPlayer
             this.button21.Location = new System.Drawing.Point(0, 69);
             this.button21.Name = "button21";
             this.button21.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button21.Size = new System.Drawing.Size(183, 23);
+            this.button21.Size = new System.Drawing.Size(203, 23);
             this.button21.TabIndex = 3;
             this.button21.Text = "button21";
             this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -131,7 +131,7 @@ namespace MediaPlayer
             this.button22.Location = new System.Drawing.Point(0, 46);
             this.button22.Name = "button22";
             this.button22.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button22.Size = new System.Drawing.Size(183, 23);
+            this.button22.Size = new System.Drawing.Size(203, 23);
             this.button22.TabIndex = 2;
             this.button22.Text = "button22";
             this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -147,7 +147,7 @@ namespace MediaPlayer
             this.button23.Location = new System.Drawing.Point(0, 23);
             this.button23.Name = "button23";
             this.button23.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button23.Size = new System.Drawing.Size(183, 23);
+            this.button23.Size = new System.Drawing.Size(203, 23);
             this.button23.TabIndex = 1;
             this.button23.Text = "button23";
             this.button23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -163,40 +163,40 @@ namespace MediaPlayer
             this.button24.Location = new System.Drawing.Point(0, 0);
             this.button24.Name = "button24";
             this.button24.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button24.Size = new System.Drawing.Size(183, 23);
+            this.button24.Size = new System.Drawing.Size(203, 23);
             this.button24.TabIndex = 0;
             this.button24.Text = "button24";
             this.button24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button24.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // Help
             // 
-            this.button20.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button20.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button20.Location = new System.Drawing.Point(0, 652);
-            this.button20.Name = "button20";
-            this.button20.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button20.Size = new System.Drawing.Size(183, 45);
-            this.button20.TabIndex = 9;
-            this.button20.Text = "Help";
-            this.button20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button20.UseVisualStyleBackColor = true;
+            this.Help.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Help.FlatAppearance.BorderSize = 0;
+            this.Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Help.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Help.ForeColor = System.Drawing.Color.Gainsboro;
+            this.Help.Location = new System.Drawing.Point(0, 652);
+            this.Help.Name = "Help";
+            this.Help.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Help.Size = new System.Drawing.Size(203, 45);
+            this.Help.TabIndex = 9;
+            this.Help.Text = "Help";
+            this.Help.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Help.UseVisualStyleBackColor = true;
             // 
-            // panel5
+            // ToolsSubMenu
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panel5.Controls.Add(this.button16);
-            this.panel5.Controls.Add(this.button17);
-            this.panel5.Controls.Add(this.button18);
-            this.panel5.Controls.Add(this.button19);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 558);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(183, 94);
-            this.panel5.TabIndex = 8;
+            this.ToolsSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.ToolsSubMenu.Controls.Add(this.button16);
+            this.ToolsSubMenu.Controls.Add(this.button17);
+            this.ToolsSubMenu.Controls.Add(this.button18);
+            this.ToolsSubMenu.Controls.Add(this.button19);
+            this.ToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ToolsSubMenu.Location = new System.Drawing.Point(0, 558);
+            this.ToolsSubMenu.Name = "ToolsSubMenu";
+            this.ToolsSubMenu.Size = new System.Drawing.Size(203, 94);
+            this.ToolsSubMenu.TabIndex = 8;
             // 
             // button16
             // 
@@ -208,7 +208,7 @@ namespace MediaPlayer
             this.button16.Location = new System.Drawing.Point(0, 69);
             this.button16.Name = "button16";
             this.button16.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button16.Size = new System.Drawing.Size(183, 23);
+            this.button16.Size = new System.Drawing.Size(203, 23);
             this.button16.TabIndex = 3;
             this.button16.Text = "button16";
             this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -224,7 +224,7 @@ namespace MediaPlayer
             this.button17.Location = new System.Drawing.Point(0, 46);
             this.button17.Name = "button17";
             this.button17.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button17.Size = new System.Drawing.Size(183, 23);
+            this.button17.Size = new System.Drawing.Size(203, 23);
             this.button17.TabIndex = 2;
             this.button17.Text = "button17";
             this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -240,7 +240,7 @@ namespace MediaPlayer
             this.button18.Location = new System.Drawing.Point(0, 23);
             this.button18.Name = "button18";
             this.button18.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button18.Size = new System.Drawing.Size(183, 23);
+            this.button18.Size = new System.Drawing.Size(203, 23);
             this.button18.TabIndex = 1;
             this.button18.Text = "button18";
             this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -256,40 +256,40 @@ namespace MediaPlayer
             this.button19.Location = new System.Drawing.Point(0, 0);
             this.button19.Name = "button19";
             this.button19.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button19.Size = new System.Drawing.Size(183, 23);
+            this.button19.Size = new System.Drawing.Size(203, 23);
             this.button19.TabIndex = 0;
             this.button19.Text = "button19";
             this.button19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button19.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // Tools
             // 
-            this.button15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button15.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button15.Location = new System.Drawing.Point(0, 513);
-            this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button15.Size = new System.Drawing.Size(183, 45);
-            this.button15.TabIndex = 7;
-            this.button15.Text = "Tools";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.UseVisualStyleBackColor = true;
+            this.Tools.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Tools.FlatAppearance.BorderSize = 0;
+            this.Tools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tools.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Tools.ForeColor = System.Drawing.Color.Gainsboro;
+            this.Tools.Location = new System.Drawing.Point(0, 513);
+            this.Tools.Name = "Tools";
+            this.Tools.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Tools.Size = new System.Drawing.Size(203, 45);
+            this.Tools.TabIndex = 7;
+            this.Tools.Text = "Tools";
+            this.Tools.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Tools.UseVisualStyleBackColor = true;
             // 
-            // panel4
+            // AlbumSubMenu
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panel4.Controls.Add(this.button11);
-            this.panel4.Controls.Add(this.button12);
-            this.panel4.Controls.Add(this.button13);
-            this.panel4.Controls.Add(this.button14);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 419);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(183, 94);
-            this.panel4.TabIndex = 6;
+            this.AlbumSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.AlbumSubMenu.Controls.Add(this.button11);
+            this.AlbumSubMenu.Controls.Add(this.button12);
+            this.AlbumSubMenu.Controls.Add(this.button13);
+            this.AlbumSubMenu.Controls.Add(this.button14);
+            this.AlbumSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AlbumSubMenu.Location = new System.Drawing.Point(0, 419);
+            this.AlbumSubMenu.Name = "AlbumSubMenu";
+            this.AlbumSubMenu.Size = new System.Drawing.Size(203, 94);
+            this.AlbumSubMenu.TabIndex = 6;
             // 
             // button11
             // 
@@ -301,7 +301,7 @@ namespace MediaPlayer
             this.button11.Location = new System.Drawing.Point(0, 69);
             this.button11.Name = "button11";
             this.button11.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(183, 23);
+            this.button11.Size = new System.Drawing.Size(203, 23);
             this.button11.TabIndex = 3;
             this.button11.Text = "button11";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -317,7 +317,7 @@ namespace MediaPlayer
             this.button12.Location = new System.Drawing.Point(0, 46);
             this.button12.Name = "button12";
             this.button12.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button12.Size = new System.Drawing.Size(183, 23);
+            this.button12.Size = new System.Drawing.Size(203, 23);
             this.button12.TabIndex = 2;
             this.button12.Text = "button12";
             this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -333,7 +333,7 @@ namespace MediaPlayer
             this.button13.Location = new System.Drawing.Point(0, 23);
             this.button13.Name = "button13";
             this.button13.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button13.Size = new System.Drawing.Size(183, 23);
+            this.button13.Size = new System.Drawing.Size(203, 23);
             this.button13.TabIndex = 1;
             this.button13.Text = "button13";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -349,40 +349,40 @@ namespace MediaPlayer
             this.button14.Location = new System.Drawing.Point(0, 0);
             this.button14.Name = "button14";
             this.button14.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(183, 23);
+            this.button14.Size = new System.Drawing.Size(203, 23);
             this.button14.TabIndex = 0;
             this.button14.Text = "button14";
             this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button14.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // Album
             // 
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button10.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button10.Location = new System.Drawing.Point(0, 374);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(183, 45);
-            this.button10.TabIndex = 5;
-            this.button10.Text = "Albums";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = true;
+            this.Album.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Album.FlatAppearance.BorderSize = 0;
+            this.Album.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Album.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Album.ForeColor = System.Drawing.Color.Gainsboro;
+            this.Album.Location = new System.Drawing.Point(0, 374);
+            this.Album.Name = "Album";
+            this.Album.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Album.Size = new System.Drawing.Size(203, 45);
+            this.Album.TabIndex = 5;
+            this.Album.Text = "Albums";
+            this.Album.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Album.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // PlaySubMeny
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panel3.Controls.Add(this.button6);
-            this.panel3.Controls.Add(this.button7);
-            this.panel3.Controls.Add(this.button8);
-            this.panel3.Controls.Add(this.button9);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 280);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(183, 94);
-            this.panel3.TabIndex = 4;
+            this.PlaySubMeny.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.PlaySubMeny.Controls.Add(this.button6);
+            this.PlaySubMeny.Controls.Add(this.button7);
+            this.PlaySubMeny.Controls.Add(this.button8);
+            this.PlaySubMeny.Controls.Add(this.button9);
+            this.PlaySubMeny.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PlaySubMeny.Location = new System.Drawing.Point(0, 280);
+            this.PlaySubMeny.Name = "PlaySubMeny";
+            this.PlaySubMeny.Size = new System.Drawing.Size(203, 94);
+            this.PlaySubMeny.TabIndex = 4;
             // 
             // button6
             // 
@@ -394,7 +394,7 @@ namespace MediaPlayer
             this.button6.Location = new System.Drawing.Point(0, 69);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(183, 23);
+            this.button6.Size = new System.Drawing.Size(203, 23);
             this.button6.TabIndex = 3;
             this.button6.Text = "button6";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -410,7 +410,7 @@ namespace MediaPlayer
             this.button7.Location = new System.Drawing.Point(0, 46);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(183, 23);
+            this.button7.Size = new System.Drawing.Size(203, 23);
             this.button7.TabIndex = 2;
             this.button7.Text = "button7";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -426,7 +426,7 @@ namespace MediaPlayer
             this.button8.Location = new System.Drawing.Point(0, 23);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(183, 23);
+            this.button8.Size = new System.Drawing.Size(203, 23);
             this.button8.TabIndex = 1;
             this.button8.Text = "button8";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -442,40 +442,40 @@ namespace MediaPlayer
             this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(183, 23);
+            this.button9.Size = new System.Drawing.Size(203, 23);
             this.button9.TabIndex = 0;
             this.button9.Text = "button9";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Playlist
             // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button5.Location = new System.Drawing.Point(0, 235);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(183, 45);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Playlists";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = true;
+            this.Playlist.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Playlist.FlatAppearance.BorderSize = 0;
+            this.Playlist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Playlist.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Playlist.ForeColor = System.Drawing.Color.Gainsboro;
+            this.Playlist.Location = new System.Drawing.Point(0, 235);
+            this.Playlist.Name = "Playlist";
+            this.Playlist.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.Playlist.Size = new System.Drawing.Size(203, 45);
+            this.Playlist.TabIndex = 3;
+            this.Playlist.Text = "Playlists";
+            this.Playlist.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Playlist.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // MediaSubMenu
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 141);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(183, 94);
-            this.panel2.TabIndex = 1;
+            this.MediaSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.MediaSubMenu.Controls.Add(this.button4);
+            this.MediaSubMenu.Controls.Add(this.button3);
+            this.MediaSubMenu.Controls.Add(this.button2);
+            this.MediaSubMenu.Controls.Add(this.button1);
+            this.MediaSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MediaSubMenu.Location = new System.Drawing.Point(0, 141);
+            this.MediaSubMenu.Name = "MediaSubMenu";
+            this.MediaSubMenu.Size = new System.Drawing.Size(203, 94);
+            this.MediaSubMenu.TabIndex = 1;
             // 
             // button4
             // 
@@ -487,7 +487,7 @@ namespace MediaPlayer
             this.button4.Location = new System.Drawing.Point(0, 69);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(183, 23);
+            this.button4.Size = new System.Drawing.Size(203, 23);
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -503,7 +503,7 @@ namespace MediaPlayer
             this.button3.Location = new System.Drawing.Point(0, 46);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(183, 23);
+            this.button3.Size = new System.Drawing.Size(203, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -519,7 +519,7 @@ namespace MediaPlayer
             this.button2.Location = new System.Drawing.Point(0, 23);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(183, 23);
+            this.button2.Size = new System.Drawing.Size(203, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -535,7 +535,7 @@ namespace MediaPlayer
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(183, 23);
+            this.button1.Size = new System.Drawing.Size(203, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -551,11 +551,12 @@ namespace MediaPlayer
             this.Media.Location = new System.Drawing.Point(0, 96);
             this.Media.Name = "Media";
             this.Media.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.Media.Size = new System.Drawing.Size(183, 45);
+            this.Media.Size = new System.Drawing.Size(203, 45);
             this.Media.TabIndex = 2;
             this.Media.Text = "Media";
             this.Media.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Media.UseVisualStyleBackColor = true;
+            this.Media.Click += new System.EventHandler(this.Media_Click);
             // 
             // panelLogo
             // 
@@ -563,7 +564,7 @@ namespace MediaPlayer
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(183, 96);
+            this.panelLogo.Size = new System.Drawing.Size(203, 96);
             this.panelLogo.TabIndex = 1;
             // 
             // label1
@@ -586,11 +587,11 @@ namespace MediaPlayer
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.HelpSubMenu.ResumeLayout(false);
+            this.ToolsSubMenu.ResumeLayout(false);
+            this.AlbumSubMenu.ResumeLayout(false);
+            this.PlaySubMeny.ResumeLayout(false);
+            this.MediaSubMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.ResumeLayout(false);
@@ -600,38 +601,38 @@ namespace MediaPlayer
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel MediaSubMenu;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Media;
         private System.Windows.Forms.Panel panelLogo;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel AlbumSubMenu;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button Album;
+        private System.Windows.Forms.Panel PlaySubMeny;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Playlist;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel HelpSubMenu;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button Help;
+        private System.Windows.Forms.Panel ToolsSubMenu;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button Tools;
     }
 }
 

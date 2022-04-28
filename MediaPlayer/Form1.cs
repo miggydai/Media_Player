@@ -17,6 +17,12 @@ namespace MediaPlayer
             InitializeComponent();
         }
 
+        private void Media_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("ioioi");
+        }
+
+
         //codes
 
 
