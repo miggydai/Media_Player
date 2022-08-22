@@ -18,3 +18,5 @@ D:\documents\git\Media_Player\MusicPlayer2\obj\Debug\MusicPlayer2.csproj.Generat
 D:\documents\git\Media_Player\MusicPlayer2\obj\Debug\MusicPlayer2.csproj.CoreCompileInputs.cache
 D:\documents\git\Media_Player\MusicPlayer2\obj\Debug\MusicPlayer2.exe
 D:\documents\git\Media_Player\MusicPlayer2\obj\Debug\MusicPlayer2.pdb
+D:\documents\git\Media_Player\MusicPlayer2\obj\Debug\MusicPlayer2.Form2.resources
+D:\documents\git\Media_Player\MusicPlayer2\obj\Debug\MusicPlayer2.Form3.resources

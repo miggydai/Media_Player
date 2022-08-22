@@ -17,12 +17,6 @@ namespace MusicPlayer2
             InitializeComponent();
             customdesign();
         }
-
-        private void Media_Click(object sender, EventArgs e)
-        {
-            ShowMenu(MediaPanel);
-        }
-
         //codes
         private void customdesign() {
             MediaPanel.Visible = false;
@@ -59,8 +53,15 @@ namespace MusicPlayer2
             }
         }
 
+        #region Media Panel
+        private void Media_Click(object sender, EventArgs e)
+        {
+            ShowMenu(MediaPanel);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
+            openChildPanel(new Form2());
             //...
             //codes
             //...
@@ -90,6 +91,7 @@ namespace MusicPlayer2
             //...
             HideSubMenu();
         }
+        #endregion
 
         #region Playlist Panel
         private void PlaylistButton_Click(object sender, EventArgs e)
@@ -99,6 +101,7 @@ namespace MusicPlayer2
 
         private void button9_Click(object sender, EventArgs e)
         {
+            openChildPanel(new Form3());
             //...
             //codes
             //...
@@ -175,6 +178,7 @@ namespace MusicPlayer2
 
         #endregion
 
+        #region ToolPanel
         private void ToolsButton_Click(object sender, EventArgs e)
         {
             ShowMenu(ToolPanel);
@@ -211,7 +215,9 @@ namespace MusicPlayer2
             //...
             HideSubMenu();
         }
+        #endregion
 
+        #region Help Panel
         private void HelpButton_Click(object sender, EventArgs e)
         {
             ShowMenu(HelpPanel);
@@ -249,5 +255,24 @@ namespace MusicPlayer2
             //...
             HideSubMenu();
         }
+        #endregion
+
+        private Form activeForm = null;
+        private void openChildPanel(Form childForm) {
+            if (activeForm != null) {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            mainPanel.Controls.Add(childForm);
+            mainPanel.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        
+        }
+    
+    
     }
 }

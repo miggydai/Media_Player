@@ -29,6 +29,7 @@ namespace MusicPlayer2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.HelpPanel = new System.Windows.Forms.Panel();
             this.button21 = new System.Windows.Forms.Button();
@@ -61,12 +62,17 @@ namespace MusicPlayer2
             this.button1 = new System.Windows.Forms.Button();
             this.MediaButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.playbackPanel = new System.Windows.Forms.Panel();
+            this.mainPanel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.HelpPanel.SuspendLayout();
             this.ToolPanel.SuspendLayout();
             this.AlbumPanel.SuspendLayout();
             this.PlaylistPanel.SuspendLayout();
             this.MediaPanel.SuspendLayout();
+            this.mainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -568,12 +574,44 @@ namespace MusicPlayer2
             this.panel2.Size = new System.Drawing.Size(198, 100);
             this.panel2.TabIndex = 1;
             // 
+            // playbackPanel
+            // 
+            this.playbackPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.playbackPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.playbackPanel.Location = new System.Drawing.Point(215, 418);
+            this.playbackPanel.Name = "playbackPanel";
+            this.playbackPanel.Size = new System.Drawing.Size(669, 143);
+            this.playbackPanel.TabIndex = 1;
+            // 
+            // mainPanel
+            // 
+            this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.mainPanel.Controls.Add(this.pictureBox1);
+            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPanel.Location = new System.Drawing.Point(215, 0);
+            this.mainPanel.Name = "mainPanel";
+            this.mainPanel.Size = new System.Drawing.Size(669, 418);
+            this.mainPanel.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(99, -46);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(501, 440);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(884, 561);
+            this.Controls.Add(this.mainPanel);
+            this.Controls.Add(this.playbackPanel);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -583,6 +621,8 @@ namespace MusicPlayer2
             this.AlbumPanel.ResumeLayout(false);
             this.PlaylistPanel.ResumeLayout(false);
             this.MediaPanel.ResumeLayout(false);
+            this.mainPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -621,6 +661,9 @@ namespace MusicPlayer2
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button PlaylistButton;
+        private System.Windows.Forms.Panel playbackPanel;
+        private System.Windows.Forms.Panel mainPanel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
