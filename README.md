@@ -1,2 +1,2 @@
 # Media_Player
-UI for media player
+sample UI for media player
